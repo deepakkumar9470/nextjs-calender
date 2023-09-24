@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.calenderContainer{
+  max-width: 1240px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+.addnewevent{
+  margin: 20px 0;
+  padding: 15px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color:#007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.addnewevent:hover{
+  transition: all 0.3s ease;
+    background-color: #0567cf;
+}
+/* Header(Navbar) */
+.navbar{
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+
+.navbar .logo h2{
+   font-size: 30px;
+   color: #007bff;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+@media screen and (max-width:768px) {
+  .nav{
+    display: none;
+  }
+  
+}

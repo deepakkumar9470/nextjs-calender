@@ -1,0 +1,59 @@
+
+.calendar-container {
+    max-width: 1000px;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px; 
+    background-color: #FBFBFB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+ 
+  
+  .fc-title {
+    font-weight: bold;
+    color:green;
+  }
+  
+  .fc-event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    background-color: #8ac5f5;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .fc-day-header {
+    background-color: #FBFBFB;
+    font-weight: bold;
+    text-align: center;
+ }
+ 
+  .fc-col-header-cell {
+    padding: 50px; 
+  }
+ 
+  
+  .fc-view,
+.fc-view > table,
+.fc-view > table > thead > tr > th,
+.fc-view > table > tbody > tr > td {
+  border-left: none; 
+  border-right: none;
+}
+  @media screen and (max-width: 768px){
+    .calendar-container {
+        max-width: 100%; 
+        padding: 10px; 
+      }
+    
+  }
+  
